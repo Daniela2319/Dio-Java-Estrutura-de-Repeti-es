@@ -32,6 +32,11 @@ public class LaçoRepetição {
             System.out.println(tabuada + " x " + i + " = " + (tabuada * i));
 
 
+            // For 
+            String frutas[] = {"laranja", "maça", "banana"};
+            for(int j = 0; j <= frutas.length; j++){
+                System.out.println("Nome da fruta é: " + frutas [j]);
+            }
     
 
     }
