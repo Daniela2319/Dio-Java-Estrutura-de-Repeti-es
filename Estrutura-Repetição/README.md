@@ -33,5 +33,20 @@ String carros [] = {"Fusca 1960", "Uno 2018", "Corrolla 2006", "Chevette 1984"};
             System.out.println("Carro não foi escolhido para venda:  " + carros[x]);
         }
 
+## While 
+
+O laço `while` (tradução "enquanto") determina que enquanto uma condição for válida, o bloco de código será executada. O laço `while` testa a condição antes de executar o código, logo, caso a condição seja inválida no primeiro teste o bloco nem será executado.
+
+> `while` (expressão booleana de validação)
+> // comando que será executado até que a
+>  expressão de validação torne-falsa.
+
+## Do While
+
+O laço `do while` (tradução "faça.. enquanto"), assim como o laço while, considerando que enquanto uma determinada condição for válida o bloco do código será executado. Entretanto, do while testa a condição após executar o código, sendo assim, mesmo que a condição seja considerada inválida no primeiro teste o bloco será executado pelo menos uma vez.
+
+> `do`{
+>   // comando que será executado até que expressão de validação torne-se false } `while` (expressão booleana de validação);
+   
 
 
