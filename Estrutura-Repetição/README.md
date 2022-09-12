@@ -47,6 +47,28 @@ O laço `do while` (tradução "faça.. enquanto"), assim como o laço while, co
 
 > `do`{
 >   // comando que será executado até que expressão de validação torne-se false } `while` (expressão booleana de validação);
-   
+
+
+## Estruturas Expcionais
+
+Ao executar o código Java, diferente erros podem acontecer erros de codificação feitos pelo programador, erros devido a entrada errada ou outros emprevistos.
+Quando ocorre um erro, o Java normalmente para e gera uma mensagem do erro. O termo técnico para isso é : Java lançará uma execeção (jogara um erro). 
+De forma interpretativo em Java, um erro é algo irreparável. Já exeções é um fluxo inesperado da nossa aplicação.
+
+Conhecendo algumas exceções já mapeadas. A linguagem Java dispões de uma vasta lista de classes que representam execeções, abaixo iremos apresentar as mais comuns:
+
+                                                                                                  
+ | nome                           |  causa                                                           |        
+ |                                |                                                                  |   
+ | java.lang.NullPointerException | Quando tentamos obter algumas informações de uma variável nula.  |
+ |                                |                                                                  |
+ | java.lang.ArithmeticException  | Quando tentamos dividir um valor por zero.                       |
+ |                                |                                                                  |
+ | java.sql.SQLException          | Quando existe algum erro relacionado a interação com banco dados |
+ |                                |                                                                  |
+ | java.io.FileNotFoundExpception | Quando tentamos ler ou escrever em um arquivo que não existe.    |
+ |                                |                                                                  |
+
+ 
 
 
