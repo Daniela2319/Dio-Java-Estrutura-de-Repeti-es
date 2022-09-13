@@ -26,7 +26,7 @@ public class EstruturaExpcionais {
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Minha Altura é: " + altura + " cm");
 
-        } catch (InputMismatchException e){
+        } catch (InputMismatchException  e){
             System.out.println("O campo idade e altura precisam ser númericos");
 
         }
