@@ -72,6 +72,25 @@ Try{
     // precisamos sabe qual exceção bloco de código que captura as execeções que podem acontecer em caso de um fluxo não pervisto}
 }
 
+## Praticando com For
+
+O que você entender quando pratica, tudo na verdade, você começa entender o significado da contagem for de inicio ao fim.
+
+Aqui começa o inicio da contagem exemplo 1:
+
+>for(int i = 0; ou se começa com vinte 
+for( int i = 20;
+
+E aqui final da contagem exemplo 2:
+
+>for(int i = 0;  i < 10; )  ou  for(int i = 20; i >= 2;)
+
+Na terceira parte número de contagem exemplo 3:
+
+>for(int i = 0; i < 10; i++) ou for(int i = 20; i >= 2; i -= 2);
+
+
+
  
 
 
